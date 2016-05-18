@@ -2,7 +2,7 @@
 
 Description
 ============
-Удобный способо использовать ajax кнопку в grid
+Simple button in grid
 
 For example:
 -----------------------------------------
