@@ -19,7 +19,7 @@
   "require": {
     "yiisoft/yii2-bootstrap": "@dev"
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "deka6pb\\geocoder\\": ""
