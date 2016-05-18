@@ -1,0 +1,28 @@
+{
+  "name": "deka6pb/yii2-widget-button_ajax",
+  "description": "Yii 2 simple ajax button",
+  "keywords": [
+    "yii2",
+    "button",
+    "ajax",
+    "deka6pb"
+  ],
+  "homepahe": "https://github.com/deka6pb/yii2-widget-button_ajax",
+  "type": "yii2-widget",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mikhail Maklashov",
+      "email": "deka6pb@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2-bootstrap": "@dev"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "deka6pb\\geocoder\\": ""
+    }
+  }
+}
