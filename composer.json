@@ -22,7 +22,7 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "deka6pb\\geocoder\\": ""
+      "deka6pb\\button_ajax\\": ""
     }
   }
 }
