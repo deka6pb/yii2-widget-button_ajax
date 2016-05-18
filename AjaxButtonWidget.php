@@ -10,7 +10,7 @@ namespace deka6pb\button_ajax;
 
 use yii\base\Widget;
 
-class ButtonWidget extends Widget
+class AjaxButtonWidget extends Widget
 {
     public $model;
     public $uniqueClass;
