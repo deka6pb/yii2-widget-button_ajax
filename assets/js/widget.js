@@ -1,10 +1,8 @@
+var ajaxModalClick;
+
 $(function () {
-    var gBtn = $('.' + btnOnClickClass);
-
-    gBtn.tooltip();
-
-    gBtn.on('click', function () {
-        var btn = $(this),
+    ajaxModalOnClick = function (elem) {
+        var btn = $(elem),
             item = {
                 "url": btn.data('action'),
                 "type": btn.data('type') ? btn.data('type') : 'get'
@@ -36,5 +34,5 @@ $(function () {
         handler.init();
 
         return false;
-    });
+    };
 });
