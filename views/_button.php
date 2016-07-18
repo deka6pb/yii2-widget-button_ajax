@@ -8,7 +8,7 @@ Assets::register($this);
 ?>
 <button type="button" class="btn btn-ajax-widget <?= $uniqueClass ?> <?= $btnClass ?>" data-data='<?= $data ?>'
         data-action="<?= $action ?>" data-type="<?= $type ?>" data-original-title="<?= $title ?>"
-        onclick="ajaxModalOnClick(this)">
+        onclick="ajaxModalOnClick(this, '<?= $confirm ?>')">
     <i class="glyphicon <?= $iconClass ?>"></i>
     <?=$title?>
 </button>
