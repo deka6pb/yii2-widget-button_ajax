@@ -20,6 +20,7 @@ class AjaxButtonWidget extends Widget
     public $iconClass = '';
     public $btnClass  = '';
     public $title     = '';
+    public $confirm   = '';
 
     public function run()
     {
@@ -32,6 +33,7 @@ class AjaxButtonWidget extends Widget
             'data'        => $this->data,
             'title'       => $this->title,
             'type'        => $this->type,
+            'confirm'     => $this->confirm,
         ]);
     }
 }
