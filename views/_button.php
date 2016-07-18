@@ -10,4 +10,5 @@ Assets::register($this);
         data-action="<?= $action ?>" data-type="<?= $type ?>" data-original-title="<?= $title ?>"
         onclick="ajaxModalOnClick(this)">
     <i class="glyphicon <?= $iconClass ?>"></i>
+    <?=$title?>
 </button>
