@@ -1,7 +1,13 @@
 var ajaxModalClick;
 
 $(function () {
-    ajaxModalOnClick = function (elem) {
+    ajaxModalOnClick = function (elem, confirmText) {
+        if(confirmText) {
+            if(!confirm(confirmText)) {
+                return false;
+            }
+        }
+        
         var btn = $(elem),
             item = {
                 "url": btn.data('action'),
